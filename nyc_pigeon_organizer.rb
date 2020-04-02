@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
   }
   data.each do |data_type, data_value|
-    data_value.each do |key, value|
+    data_value.each do |color, name|
       binding.pry
     end
   end
