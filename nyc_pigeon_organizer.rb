@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name][data_type]
           new_hash[name][data_type] = []
         end
-        new_hash[name][data_type] << color
+        new_hash[name][data_type] << color.to_s
       end
     end
   end
