@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name][data_type]
           new_hash[name][data_type] = []
         end
-        binding.pry
+        new_hash[name][data_type] << :color
       end
     end
   end
